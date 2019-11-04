@@ -2,7 +2,7 @@
 	include_once "ResizeImage.php" ;
 	include_once "UploadResizeImage.php";
 
-	$file = "13.png";
+	$file = "12.png";
 	$resize = new ResizeImage($file);
 	$resize->targetWidth = 600;
 	$resize->targetHeight = 300;
